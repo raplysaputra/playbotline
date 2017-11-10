@@ -7,7 +7,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = TOBY.LINE()
-cl.login(qr=True)
+cl.login(authToken="EmSWsJlRvrD31fNC892c.PlwVZTTm9mw9Pkts9rZiRa.BMdUEBLUzETQv4seDZI3BePRluBOG2lfxmMbhBhGh8E")
 cl.loginResult()
 
 # client_id = ''
@@ -86,10 +86,10 @@ helpMessage ="""!CommandMember!
 => Cleanse
 
 ==================================================
-BOT : TOBY
-SUPPORT BY : CYBER BOT CRIME
-Hanya Admin Yang Bisa Menggunakan Bot
-"""
+PLAY BOT
+SUPPORT BY : LINE
+BOOOOOOOOOOOOOOOM
+
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
